@@ -1,0 +1,30 @@
+.pdp__container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.pdp__left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.pdp__left img {
+  width: 80px;
+  height: 80px;
+}
+
+.pdp__middle img {
+  width: 750px;
+  height: 513px;
+  padding-right: 100px;
+  padding-left: 10px;
+}
+
+.pdp__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
